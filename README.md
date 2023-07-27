@@ -68,9 +68,7 @@ Aqui está uma descrição das funções e métodos implementados:
 
 25. **moveSnake**: Move a cobra na direção atual, atualiza a posição da cobra e verifica se ela saiu da arena.**
 
-### Variáveis 
-
-Claro, essas parecem ser as variáveis globais usadas no jogo. Vamos analisá-las:
+### Variáveis
 
 1. **Vector2 Dir**: Esta é a direção atual na qual a cobra está se movendo.
 
