@@ -13,8 +13,7 @@
 
 ## Classes
 
-1. **Enemy**: Esta classe representa um inimigo no jogo. Ela tem uma posição (um objeto Vector2), e uma variável de velocidade. Existem dois métodos nesta classe: `moveRandomly` e `detectPlayer`. O primeiro provavelmente move o inimigo de forma aleatória no jogo, enquanto o segundo provavelmente detecta a posição do jogador para algum propósito.
-
+1. **Enemy**: Esta classe representa um inimigo no jogo. Ela tem uma posição (um objeto Vector2), e uma variável de velocidade. Existem dois métodos nesta classe: `moveRandomly` e `detectPlayer`. 
 # Game.cpp
 Aqui está uma descrição das funções e métodos implementados:
 
@@ -38,7 +37,7 @@ Aqui está uma descrição das funções e métodos implementados:
 
 10. **drawHighScores**: Desenha as pontuações mais altas na tela inicial, o MVP de todas as pontuações.
 
-11. **Ghost**: Desenha um fantasma, possivelmente representando um inimigo.
+11. **Ghost**: Desenha um fantasma, representando um inimigo.
 
 12. **Arena**: Desenha a arena do jogo, incluindo as paredes e o chão. Também desenha obstáculos e inimigos.
 
@@ -75,17 +74,7 @@ Aqui está uma descrição das funções e métodos implementados:
 2. **Vector2 SnakePos[MAXLENGTH] = {Vector2(0, 0, 1)}**: Este é um array que armazena a posição de cada segmento da cobra. Ele é inicializado com a cobra na posição (0, 0) e com uma movimentação de 1.
 
 3. **bool AlreadyUpdate**: Esta variável parece ser usada para verificar se algo (possivelmente a posição da cobra) já foi atualizado.
-
-4. **Color SnakeColor = Color(0,1,1,1)**: Esta é a cor da cobra, definida como ciano no formato RGBA.
-
-5. **Color SnakeHeadColor = Color(0,0,1,1)**: Esta é a cor da cabeça da cobra, definida como azul no formato RGBA.
-
-6. **Color WallColor = Color(1,0,0,1)**: Esta é a cor das paredes da arena, definida como vermelho no formato RGBA.
-
-7. **Color FoodColor = Color(1,1,1,1)**: Esta é a cor da comida, definida como branco no formato RGBA.
-
-8. **Color Gray = Color(1.5f, .5f, .5f, 1)** e **Color GrayLess = Color(1.3f, .3f, .3f, 1)**: Estas são cores cinza, provavelmente usadas para desenhar alguns elementos do jogo.
-
+  
 9. **int SnakeSize = 1**: Este é o tamanho inicial da cobra. A cobra cresce à medida que come a comida.
 
 10. **float cam_x** e **float cam_z**: Estas são as coordenadas da câmera no eixo x e z, respectivamente.
